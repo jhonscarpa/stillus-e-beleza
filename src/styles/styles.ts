@@ -37,3 +37,12 @@ export const Container = styled.div`
 export const Section = styled.section`
   padding: 5rem 0;
 `
+
+export const Divider1 = styled.div`
+  height: 1px;
+  background: linear-gradient(270deg, #875afd, white);
+`
+export const Divider2 = styled.div`
+  height: 1px;
+  background: linear-gradient(270deg, white, #875afd);
+`

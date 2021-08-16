@@ -1,12 +1,14 @@
 import { About } from './pages/about'
 import { Home } from './pages/home/index'
-import GlobalStyle from './styles/styles'
+import GlobalStyle, { Divider1, Divider2 } from './styles/styles'
 
 function App() {
   return (
     <>
       <Home />
+      <Divider1 />
       <About />
+      <Divider2 />
       <GlobalStyle />
     </>
   )
