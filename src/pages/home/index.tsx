@@ -9,7 +9,7 @@ export function Home() {
     <Container>
       <Headers />
 
-      <Section>
+      <Section id="home">
         <HomeStyle>
           <Image>
             <img src={homeImg} alt="cabelo preto" />

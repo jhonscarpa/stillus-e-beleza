@@ -6,7 +6,7 @@ import aboutImg from '../../assets/aboutImg.jpg'
 export function About() {
   return (
     <Container>
-      <Section>
+      <Section id="about">
         <AboutStyle>
           <Text>
             <Title>Sobre nós</Title>
