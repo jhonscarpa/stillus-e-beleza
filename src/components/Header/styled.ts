@@ -17,6 +17,29 @@ export const Menu = styled.div`
       color: #875afd;
       -webkit-font-smoothing: auto;
       margin-bottom: 1rem;
+      position: relative;
+    }
+  }
+  ul li a {
+    color: black;
+    transition: color 0.3s;
+
+    :hover {
+      color: #875afd;
+
+      :after {
+        width: 100%;
+      }
+    }
+    :after {
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: #875afd;
+      position: absolute;
+      left: 0;
+      bottom: -1.5rem;
+      transition: width 0.3s;
     }
   }
 `
@@ -36,15 +59,6 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 4.5rem;
-
-  ul li a {
-    color: black;
-    transition: color 0.3s;
-
-    :hover {
-      color: #875afd;
-    }
-  }
 `
 
 export const Header = styled.header`
