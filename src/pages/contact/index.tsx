@@ -13,6 +13,8 @@ import mail from '../../assets/icon/mail.svg'
 import map from '../../assets/icon/map.svg'
 import phone from '../../assets/icon/phone.svg'
 
+import { Footer } from '../../components/Footer'
+
 export function Contact() {
   return (
     <Container>
@@ -53,6 +55,7 @@ export function Contact() {
           </RowCenterRight>
         </ContactStyled>
       </Section>
+      <Footer />
     </Container>
   )
 }

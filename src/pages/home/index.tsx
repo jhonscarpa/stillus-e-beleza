@@ -3,15 +3,25 @@ import homeImg from '../../assets/homeImg.jpg'
 import { Headers } from '../../components/Header'
 import { HomeStyle, Image, Text } from './styles'
 import { Title, Container, Section, Button } from '../../styles/styles'
+import ScrollReveal from 'scrollreveal'
 
 export function Home() {
+  // const scrollReveal = ScrollReveal({
+  //   origin: 'top',
+  //   distance: '5px',
+  //   duration: 700,
+  //   reset: true,
+  // })
+
+  // scrollReveal.reveal(`#home ${Image}, ${Text}`, { interval: 100 })
+
   return (
     <Container>
       <Headers />
 
       <Section id="home">
         <HomeStyle>
-          <Image>
+          <Image className="image">
             <img src={homeImg} alt="cabelo preto" />
           </Image>
 

@@ -2,8 +2,17 @@ import React from 'react'
 import { Container, Section, Title } from '../../styles/styles'
 import { AboutStyle, Text, Image } from './styles'
 import aboutImg from '../../assets/aboutImg.jpg'
+import ScrollReveal from 'scrollreveal'
 
 export function About() {
+  const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true,
+  })
+
+  scrollReveal.reveal(` #about ${Text}, ${Image} `, { interval: 200 })
   return (
     <Container>
       <Section id="about">
@@ -35,7 +44,7 @@ export function About() {
               provident explicabo culpa. Sit, quisquam sed.
             </p>
           </Text>
-          <Image>
+          <Image className="Image">
             <img src={aboutImg} alt="Mulher com cabelos cacheados" />
           </Image>
         </AboutStyle>
