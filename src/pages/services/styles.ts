@@ -35,10 +35,3 @@ export const Card = styled.div`
     height: 100%;
   }
 `
-
-export const Icon = styled.div`
-  img {
-    width: 20%;
-    height: 20%;
-  }
-`

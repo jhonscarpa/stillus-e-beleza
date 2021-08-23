@@ -5,18 +5,17 @@ export const Menu = styled.div`
   display: flex;
 
   ul {
-    display: flex;
-    justify-content: flex-end;
+    display: inline-flex;
+
     gap: 2rem;
-    padding-left: 46rem;
+
+    padding-left: 55rem;
     padding-right: 1.5rem;
 
     a {
       font: 700 1rem 'Poppins', sans-serif;
-      text-align: center;
-      color: #875afd;
+
       -webkit-font-smoothing: auto;
-      margin-bottom: 1rem;
       position: relative;
     }
   }

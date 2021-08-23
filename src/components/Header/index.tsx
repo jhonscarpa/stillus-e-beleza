@@ -21,10 +21,7 @@ export function Headers() {
                 <a href="#services">Serviços</a>
               </li>
               <li>
-                <a href="#galery">Galeria</a>
-              </li>
-              <li>
-                <a href="#scheduling">Agendamento</a>
+                <a href="#gallery">Galeria</a>
               </li>
               <li>
                 <a href="#contact">Contato</a>

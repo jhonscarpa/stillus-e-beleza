@@ -46,3 +46,39 @@ export const Divider2 = styled.div`
   height: 1px;
   background: linear-gradient(270deg, white, #875afd);
 `
+
+export const RowCenterLeft = styled.div`
+  display: inline-block;
+  height: max-content;
+  max-width: 30rem;
+  text-align: center;
+  justify-content: flex-start;
+`
+export const RowCenterRight = styled.div`
+  display: flex;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+  justify-content: flex-end;
+`
+
+export const Button = styled.a`
+  font: 500 1rem 'DM Sans', sans-serif;
+  background-color: #875afd;
+  color: white;
+  border-radius: 4px;
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  padding: 0 2rem;
+  transition: background 0.3s;
+  :hover {
+    background: #ac58fa;
+  }
+`
+export const Icon = styled.div`
+  img {
+    width: 20%;
+    height: 20%;
+  }
+`

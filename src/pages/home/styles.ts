@@ -43,17 +43,3 @@ export const Image = styled.div`
     border-radius: 4px;
   }
 `
-export const Button = styled.a`
-  font: 500 1rem 'DM Sans', sans-serif;
-  background-color: #875afd;
-  color: white;
-  border-radius: 4px;
-  display: inline-flex;
-  height: 3.5rem;
-  align-items: center;
-  padding: 0 2rem;
-  transition: background 0.3s;
-  :hover {
-    background: #ac58fa;
-  }
-`
